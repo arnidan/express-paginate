@@ -1,11 +1,11 @@
 {
   "name": "express-paginate",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Node.js pagination middleware and view helpers",
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/niftylettuce/express-paginate.git"
+    "url": "git://github.com/arnidan/express-paginate.git"
   },
   "author": "Nick Baugh <niftylettuce@gmail.com>",
   "contributors": [
@@ -30,7 +30,7 @@
     "lodash.assign": "^3.2.0",
     "lodash.clone": "^3.0.3",
     "lodash.isobject": "^3.0.2",
-    "querystring": "^0.2.0"
+    "qs": "^6.4.0"
   },
   "devDependencies": {
     "async": "^1.4.2",

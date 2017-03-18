@@ -8,7 +8,7 @@
 // * Author: [@niftylettuce](https://twitter.com/#!/niftylettuce)
 // * Source: <https://github.com/niftylettuce/express-paginate>
 
-var querystring = require('querystring');
+var qs = require('qs');
 var url = require('url');
 var assign = require('lodash.assign');
 var clone = require('lodash.clone');
@@ -38,7 +38,7 @@ exports.href = function href(req) {
     if (isObject(params))
       query = assign(query, params);
 
-    return url.parse(req.originalUrl).pathname + '?' + querystring.stringify(query);
+    return url.parse(req.originalUrl).pathname + '?' + qs.stringify(query);
 
   };
 };
